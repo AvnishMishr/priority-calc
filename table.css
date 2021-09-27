@@ -87,7 +87,7 @@ td {
 } 
   #priority1, #priority2, #priority3{
     border: none;
-    text-align: center;
+    /* text-align: center; */
   }
 #priority1factor1, #priority1factor2, #priority1factor3,#priority1factor4,#priority1factor5,#priority1factor6{
   background-color: white; 
@@ -186,5 +186,17 @@ tr{
      display: block;
     min-height: 40px;
     font-size: small;
+  }
+  #priority1#priority2#priority3{
+    padding: 0px;
+    font-size: large;
+    margin: 4%;
+    width: fit-content;
+    block-size: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: #8ca0ff;
+    padding: 5px;
+    margin-bottom: 1em;
   }
 }
